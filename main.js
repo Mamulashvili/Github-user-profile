@@ -103,7 +103,10 @@ const AccordionItem = {
             default: '',
         },
         accordionItemContent: {
-            type: String,
+            type: [
+                String,
+                null,
+            ],
             required: true,
             default: '',
         },
