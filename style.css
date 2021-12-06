@@ -1,0 +1,17 @@
+*,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0 !important;
+}
+
+.github-repo-card-holder {
+  padding: 15px;
+  border-radius: 7px;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
